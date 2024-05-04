@@ -1,5 +1,17 @@
 # README
 
+## Menu Management Backend Application
+### Technical assessment for Popmenu
+
+#### Level 1
+
+Started off by setting up my Rails server using the scaffolding tool. 
+
+Assuming I'm not concerned about selective user access for now (prevent creating/updating/deleting based on credentials)
+
+Creating an 'api' namespace with versioning for access to menu and menu items; created directories reflecting this within controller, where I'm moving controllers for menu and menuItems.
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
