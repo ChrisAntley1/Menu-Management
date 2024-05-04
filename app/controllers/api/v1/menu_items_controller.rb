@@ -1,4 +1,4 @@
-class MenuItemsController < ApplicationController
+class api::v1::MenuItemsController < ApplicationController
   before_action :set_menu_item, only: %i[ show update destroy ]
 
   # GET /menu_items

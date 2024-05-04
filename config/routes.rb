@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
-  resources :menu_items
-  resources :menus
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  namespace :api do
+    namespace :v1 do
+      resources :menus do
+        resources :menu_items
+      end
+    end
+  end
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
   # Can be used by load balancers and uptime monitors to verify that the app is live.
