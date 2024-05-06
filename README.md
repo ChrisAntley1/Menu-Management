@@ -2,7 +2,19 @@
 # Menu Management Backend Application
 ## Technical assessment for Popmenu
 
-To run the test suite, navigate to the Menu-Management Directory and run:
+Built with Rails 7.
+
+To install:
+1. clone this repo
+2. in a terminal, navigate to the root 'Menu-Management' directory
+3. run:
+```bash
+bundle install
+rails db:create
+rails db:migrate
+rails server
+```
+To run the test suite, run:
 
 `rspec spec -fd`
 
