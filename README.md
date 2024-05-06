@@ -1,36 +1,31 @@
-# README
 
-## Menu Management Backend Application
-### Technical assessment for Popmenu
+# Menu Management Backend Application
+## Technical assessment for Popmenu
 
-#### Level 1
+To run the test suite, navigate to the Menu-Management Directory and run:
 
-Started off by setting up my Rails server using the scaffolding tool. 
+`rspec spec -fd`
 
-Assuming I'm not concerned about selective user access for now (prevent creating/updating/deleting based on credentials)
+### Level 1
 
-Creating an 'api' namespace with versioning for access to menu and menu items; created directories reflecting this within controller, where I'm moving controllers for menu and menuItems.
+- Started off by setting up my Rails server using the scaffolding tool. Assuming I'm not concerned about selective user access (prevent creating/updating/deleting based on credentials)
 
+- Creating an 'api' namespace with versioning for access to menu and menu items; created directories reflecting this within controller, where I'm moving controllers for menu and menuItems.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Adding some basic data into the database using the rails command line. Getting familiar with API URLs, how they're formatted
 
-Things you may want to cover:
+- For this level, I've set up menu items so that they're associated with specific menus; assuming this is intended so that level 2 requires a schema update?
 
-* Ruby version
+- Installed rspec-rails; learning how to use it...
 
-* System dependencies
+- Created rspec models for data models; learning how to require certain attributes on creation (such as menu name, menuItem name, price, etc.)...
 
-* Configuration
+- Created tests for Menu and Menu Items. 
 
-* Database creation
+### Apologies all - didn't give myself enough time to complete this more thoroughly. 
 
-* Database initialization
+### Enjoyed both the project and learning some Rails! 
 
-* How to run the test suite
+### Cheers, 
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Chris Antley
